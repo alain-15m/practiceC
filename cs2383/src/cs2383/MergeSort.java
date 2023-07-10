@@ -1,0 +1,37 @@
+package cs2383;
+
+public class MergeSort {
+	public static void main(String[] args) {
+		int[] a= {3,2,1,0};
+		
+		bubbleSort(a);
+		
+		for(int p: a)
+		 System.out.print(p+" ");
+		
+		
+	}
+	public static void insertionSort(int[] a) {
+		for(int i=0;i<a.length;i++) {
+			int j=i-1, val =a[i];
+			while(j>=0 && a[j]>val) {
+				a[j+1]=a[j];
+				a[j]=val;
+				j--;
+			}
+		}
+	}
+	public static void bubbleSort(int[] a) {
+		for(int i=0;i<a.length-1;i++) {
+			for(int j=0;j<a.length-i-1;j++) { //j= 4-0-1=3
+				if(a[j]>a[j+1]) {
+					int temp =a[j];
+					a[j]=a[j+1];
+					a[j+1]=temp;
+					
+				}
+			}
+		}
+	}
+
+}

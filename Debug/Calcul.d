@@ -1,0 +1,1 @@
+Calcul.o: ../Calcul.c

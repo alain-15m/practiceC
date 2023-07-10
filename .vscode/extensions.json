@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "franneck94.c-cpp-runner",
+        "kaysonwu.cpptask",
+        "garmin.monkey-c",
+        "undo.udb",
+        "job.amiga-debug-job",
+        "bartmanabyss.amiga-debug",
+        "davidcanadasmazo.amiga-debug-arch",
+        "ms-vscode.cpptools-themes",
+        "twxs.cmake",
+        "ms-vscode.powershell",
+        "powertech.powercpp",
+        "danielpinto8zz6.c-cpp-compile-run",
+        "mitaki28.vscode-clang",
+        "hars.cppsnippets",
+        "utsavm9.c-cpp-flag-debugging",
+        "jbenden.c-cpp-flylint",
+        "brapifra.c-compiler",
+        "jaycetyle.vscode-gnu-global",
+        "danielpinto8zz6.c-cpp-project-generator",
+        "ms-vscode.cmake-tools"
+    ]
+}
